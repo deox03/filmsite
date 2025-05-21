@@ -1,0 +1,50 @@
+/* Header.module.css */
+.header {
+  font-size: 28px;
+  padding: 15px;
+  background: linear-gradient(90deg, #222 0%, #444 100%);
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid #6e45e2;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.header:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #333 0%, #555 100%);
+}
+
+.header::before {
+  content: '🎬';
+  margin-right: 8px;
+  font-size: 32px;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 24px;
+    padding: 12px;
+  }
+
+  .header::before {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .header::before {
+    font-size: 24px;
+  }
+}
