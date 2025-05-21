@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/filmsite/static/css/main.bdce4233.css",
+    "main.js": "/filmsite/static/js/main.dcdc21ea.js",
+    "index.html": "/filmsite/index.html",
+    "main.bdce4233.css.map": "/filmsite/static/css/main.bdce4233.css.map",
+    "main.dcdc21ea.js.map": "/filmsite/static/js/main.dcdc21ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdce4233.css",
+    "static/js/main.dcdc21ea.js"
+  ]
+}
